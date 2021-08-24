@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8240" started-at="2021-08-24T01:52:35 EET" finished-at="2021-08-24T01:52:44 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8240" started-at="2021-08-24T01:52:35 EET" finished-at="2021-08-24T01:52:44 EET">
+      <class name="tests.FirstTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.FirstTest@a7e666]" name="setup" is-config="true" duration-ms="410" started-at="2021-08-24T01:52:35 EET" finished-at="2021-08-24T01:52:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllPosts()[pri:0, instance:tests.FirstTest@a7e666]" name="getAllPosts" duration-ms="3841" started-at="2021-08-24T01:52:36 EET" finished-at="2021-08-24T01:52:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPosts -->
+        <test-method status="PASS" signature="getPostWithId()[pri:0, instance:tests.FirstTest@a7e666]" name="getPostWithId" duration-ms="1664" started-at="2021-08-24T01:52:39 EET" finished-at="2021-08-24T01:52:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostWithId -->
+        <test-method status="PASS" signature="postRequest()[pri:0, instance:tests.FirstTest@a7e666]" name="postRequest" duration-ms="1832" started-at="2021-08-24T01:52:41 EET" finished-at="2021-08-24T01:52:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method status="PASS" signature="postRequestwithemptybody()[pri:0, instance:tests.FirstTest@a7e666]" name="postRequestwithemptybody" duration-ms="856" started-at="2021-08-24T01:52:43 EET" finished-at="2021-08-24T01:52:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestwithemptybody -->
+      </class> <!-- tests.FirstTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
